@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 12746
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/Algorithms/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.williamfiset.algorithms.math.PrimeFactorization
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:56:26.997 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.PrimeFactorization.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.PrimeFactorization.seed
+* Total number of test goals: 
+  - Line 42
+  - Branch 36
+  - Exception 0
+  - MutationFactory 412
+  - Output 6
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 36
+* Using seed 1711677384503
+* Starting evolution
+* Search finished after 82s and 0 generations, 1537 statements, best individual has fitness: 25.5
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 21:58:08.021 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 93%
+* Total number of goals: 42
+* Number of covered goals: 39
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 36
+* Number of covered goals: 35
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 94%
+* Total number of goals: 412
+* Number of covered goals: 387
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 6
+* Number of covered goals: 4
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 67%
+* Total number of goals: 3
+* Number of covered goals: 2
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 97%
+* Total number of goals: 36
+* Number of covered goals: 35
+* Generated 14 tests with total length 288
+* Resulting test suite's coverage: 89% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 21:58:21.649 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'PrimeFactorization_ESTest' to /home/dimitri/Documents/GitHub/Algorithms/.evosuite/tmp_2024_03_28_21_47_55/tests
+* Done!
+

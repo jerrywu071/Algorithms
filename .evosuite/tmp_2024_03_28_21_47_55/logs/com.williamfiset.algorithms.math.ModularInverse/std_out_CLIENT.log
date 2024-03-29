@@ -1,0 +1,75 @@
+* Starting client
+* Connecting to master process on port 16503
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/Algorithms/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.williamfiset.algorithms.math.ModularInverse
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 22:08:42.693 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.ModularInverse.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.ModularInverse.seed
+* Total number of test goals: 
+  - Line 17
+  - Branch 8
+  - Exception 0
+  - MutationFactory 159
+  - Output 19
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 8
+* Using seed 1711678120633
+* Starting evolution
+* Search finished after 42s and 918 generations, 184926 statements, best individual has fitness: 6.5
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 17
+* Number of covered goals: 17
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 1
+* Number of covered goals: 1
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 99%
+* Total number of goals: 159
+* Number of covered goals: 157
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 74%
+* Total number of goals: 19
+* Number of covered goals: 14
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Generated 8 tests with total length 9
+* Resulting test suite's coverage: 97% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 67%
+* Compiling and checking tests
+* Writing JUnit test case 'ModularInverse_ESTest' to /home/dimitri/Documents/GitHub/Algorithms/.evosuite/tmp_2024_03_28_21_47_55/tests
+* Done!
+

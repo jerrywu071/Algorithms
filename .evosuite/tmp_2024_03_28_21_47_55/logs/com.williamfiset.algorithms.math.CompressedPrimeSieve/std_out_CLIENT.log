@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 8704
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/Algorithms/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.williamfiset.algorithms.math.CompressedPrimeSieve
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 22:00:57.487 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.CompressedPrimeSieve.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.CompressedPrimeSieve.seed
+* Total number of test goals: 
+  - Line 27
+  - Branch 24
+  - Exception 0
+  - MutationFactory 266
+  - Output 5
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 24
+* Using seed 1711677655343
+* Starting evolution
+* Search finished after 66s and 9 generations, 9433 statements, best individual has fitness: 10.668614718614718
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 22:02:16.394 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 27
+* Number of covered goals: 27
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 24
+* Number of covered goals: 23
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 97%
+* Total number of goals: 266
+* Number of covered goals: 257
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 60%
+* Total number of goals: 5
+* Number of covered goals: 3
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 96%
+* Total number of goals: 24
+* Number of covered goals: 23
+* Generated 13 tests with total length 188
+* Resulting test suite's coverage: 94% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 22:02:26.555 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'CompressedPrimeSieve_ESTest' to /home/dimitri/Documents/GitHub/Algorithms/.evosuite/tmp_2024_03_28_21_47_55/tests
+* Done!
+

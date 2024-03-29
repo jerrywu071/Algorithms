@@ -1,0 +1,76 @@
+* Starting client
+* Connecting to master process on port 10928
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/Algorithms/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.williamfiset.algorithms.math.NChooseRModPrime
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 22:07:36.308 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.NChooseRModPrime.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.NChooseRModPrime.seed
+* Total number of test goals: 
+  - Line 32
+  - Branch 10
+  - Exception 0
+  - MutationFactory 257
+  - Output 3
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 10
+* Using seed 1711678054193
+* Starting evolution
+* Search finished after 50s and 55 generations, 15043 statements, best individual has fitness: 8.646762157718332
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 32
+* Number of covered goals: 32
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 90%
+* Total number of goals: 10
+* Number of covered goals: 9
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 98%
+* Total number of goals: 257
+* Number of covered goals: 253
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 3
+* Number of covered goals: 2
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 90%
+* Total number of goals: 10
+* Number of covered goals: 9
+* Generated 9 tests with total length 10
+* Resulting test suite's coverage: 93% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 22:08:35.609 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 17%
+* Compiling and checking tests
+* Writing JUnit test case 'NChooseRModPrime_ESTest' to /home/dimitri/Documents/GitHub/Algorithms/.evosuite/tmp_2024_03_28_21_47_55/tests
+* Done!
+

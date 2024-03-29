@@ -1,0 +1,77 @@
+* Starting client
+* Connecting to master process on port 16821
+* Analyzing classpath: 
+  - /home/dimitri/Documents/GitHub/Algorithms/target/classes
+  - /home/dimitri/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /home/dimitri/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class com.williamfiset.algorithms.math.ChineseRemainderTheorem
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:48:02.501 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.ChineseRemainderTheorem.seed
+* Loaded 0 tests from /home/dimitri/Documents/GitHub/Algorithms/.evosuite/evosuite-seeds/com.williamfiset.algorithms.math.ChineseRemainderTheorem.seed
+* Total number of test goals: 
+  - Line 101
+  - Branch 69
+  - Exception 0
+  - MutationFactory 762
+  - Output 9
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 69
+* Using seed 1711676880110
+* Starting evolution
+* Search finished after 129s and 237 generations, 100769 statements, best individual has fitness: 17.61111111111111
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 21:50:34.442 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 101
+* Number of covered goals: 101
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 69
+* Number of covered goals: 68
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 97%
+* Total number of goals: 762
+* Number of covered goals: 741
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 56%
+* Total number of goals: 9
+* Number of covered goals: 5
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 99%
+* Total number of goals: 69
+* Number of covered goals: 68
+* Generated 30 tests with total length 396
+* Resulting test suite's coverage: 94% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 21:50:56.248 [pool-2-thread-1] WARN  SimpleMutationAssertionGenerator - Reached maximum time to generate assertions, aborting assertion generation
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+* Writing JUnit test case 'ChineseRemainderTheorem_ESTest' to /home/dimitri/Documents/GitHub/Algorithms/.evosuite/tmp_2024_03_28_21_47_55/tests
+* Done!
+

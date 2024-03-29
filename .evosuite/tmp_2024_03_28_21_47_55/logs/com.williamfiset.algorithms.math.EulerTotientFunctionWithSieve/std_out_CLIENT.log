@@ -1,0 +1,5 @@
+* Starting client
+* Connecting to master process on port 15526
+* Analyzing classpath: 
+* Writing JUnit test case 'EulerTotientFunctionWithSieve_ESTest' to /home/dimitri/Documents/GitHub/Algorithms/.evosuite/tmp_2024_03_28_21_47_55/tests
+* Error while initializing target class: java.lang.ExceptionInInitializerError
